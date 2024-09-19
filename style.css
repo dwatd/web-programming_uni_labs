@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 15px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.student-info img {
+  width: 100px;
+  height: auto;
+  border: 2px solid #000000;
+}
+
+.labs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.labs button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 100%;
+}
+
+.labs button:hover {
+  background-color: #ddd;
+}
+
+.content {
+  display: flex;
+}
+
+.menu {
+  width: 25%;
+  padding: 10px;
+}
+
+.menu button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: #ddd;
+}
+
+.info {
+  width: 75%;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+}

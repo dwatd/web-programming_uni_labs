@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Звіти лабораторних робіт</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -23,7 +24,7 @@
       </section>
 
       <div class="labs">
-        <button id="lab1"><a href="lab1.html">Лабораторна робота №1</a></button>
+        <button id="lab1">Лабораторна робота №1</button>
         <button id="lab2">Лабораторна робота №2</button>
         <button id="lab3">Лабораторна робота №3</button>
         <button id="lab4">Лабораторна робота №4</button>
@@ -36,7 +37,11 @@
 
       <main class="content">
         <div class="menu">
-          <button class="bigger-button" id="button1">
+          <button
+            class="bigger-button"
+            id="button1"
+            onclick="updateInfo('<b><h3>Тема</h3></b> Noriverse - це сайт для перегляду інформації та обговорення японських аніме, фільмів, серіалів та навіть мови.<br><br> <b><h3>Мета</h3></b> Ресурс для перегляду інформації та оцінок користувачів щодо певного контенту.<br><br><b><h4>Що ви знайдете на Noriverse:</h4></b> 1. Інформацію про різноманітний контент (опис, жанр, кількість серій, актори (сейю), рейтинг за оцінками користувачів).<br> 2. Корисні статті для вивчення японської.<br> 3. Форум, де ви зможете знайти людей зі спільними інтересами.<br><br><b><h2>Скріншот макету головної сторінки</h2></b><img src=\'images/main_page.png\' alt=\'main-page-img\' width=\'800px\'>')"
+          >
             Опис предметного середовища
           </button>
           <button class="bigger-button" id="button2">
@@ -53,7 +58,7 @@
           <button class="bigger-button" id="button7">Висновки</button>
         </div>
         <section class="info">
-          <p id="info-box">Місце для виведення інформації</p>
+          <p id="info-box">lab1</p>
         </section>
       </main>
       <footer></footer>

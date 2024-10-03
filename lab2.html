@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Звіти лабораторних робіт</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h1>
+        <h2>
+          з дисципліни «Інтернет-технології та проєктування web-застосувань»
+        </h2>
+      </header>
+
+      <section class="student-info">
+        <div>
+          <h4>Студентки групи ІС-33 <br />Семенюк Катерини Василівни</h4>
+        </div>
+        <img src="images/student.jpg" alt="Student-photo" />
+      </section>
+
+      <div class="labs">
+        <button id="lab1"><a href="lab1.html">Лабораторна робота №1</a></button>
+        <button id="lab2"><a href="lab2.html">Лабораторна робота №2</a></button>
+        <button id="lab3">Лабораторна робота №3</button>
+        <button id="lab4">Лабораторна робота №4</button>
+        <button id="lab5">Лабораторна робота №5</button>
+        <button id="lab6">Лабораторна робота №6</button>
+        <button id="lab7">Лабораторна робота №7</button>
+        <button id="lab8">Лабораторна робота №8</button>
+        <button id="lab9">Лабораторна робота №9</button>
+      </div>
+
+      <main class="content">
+        <div class="menu">
+          <button
+            class="bigger-button"
+            id="button1"
+            onclick="updateInfo(`<h3>Тема:</h3> КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ. <h3>Мета:</h3> придбати практичні навички роботи  з селекторами, ідентифікаторами, списками,  різноманітними властивостями кольору і фону,  зовнішними та внутрішними  відступами,  плаваючими елементами, оформленням текстових елементів <br> <h4>Місце розташування ЛР №2:</h4> <a href='https://github.com/dwatd/web-programming_uni_labs'>https://github.com/dwatd/web-programming_uni_labs</a> <h4>Жива сторінка ЛР №2:</h4> <a href='https://dwatd.github.io/web-programming_uni_labs/'>https://dwatd.github.io/web-programming_uni_labs/lab2.html</a>`)"
+          >
+            Тема, мета ЛР №2, місце розташування сайту, звіту
+          </button>
+          <button
+            class="bigger-button"
+            id="button2"
+            onclick="updateInfo(`<h3>Існує три основні способи підключення CSS стилів до HTML:</h3> <ul> <li><b>Inline-стилі:</b> Стилі вбудовуються безпосередньо в HTML-елементи за допомогою атрибуту style. Це зручно для окремих елементів, але не рекомендовано для великих проєктів, оскільки ускладнює керування стилями.</li> <li><b>Внутрішні (embedded) стилі:</b> Стилі додаються в секцію head HTML-документа за допомогою тегу style. Такий підхід корисний для сторінок з невеликою кількістю стилів, але для масштабних проєктів це може бути менш гнучким.</li> <li><b>Зовнішні стилі:</b> Стилі зберігаються у зовнішньому файлі з розширенням .css, який підключається до HTML-документа за допомогою тегу link у секції head. Цей спосіб найкраще підходить для великих проєктів, оскільки дозволяє централізовано керувати стилями.</li><ul/> <br> <img src=\'images/lab2/style_types.png\' alt=\'style-types\' width=\'800px\'>`)"
+          >
+            Способи підключення стилів
+          </button>
+          <button
+            class="bigger-button"
+            id="button3"
+            onclick="updateInfo(`<h3>Селектори CSS</h3> використовуються для вибору елементів на сторінці HTML, до яких потрібно застосувати стилі. Існує кілька типів селекторів, які дозволяють вибрати різні елементи або групи елементів: <ul> <li><b>Селектори за типом (тегом) елементів (Type Selector)</b> Вибирає всі елементи певного типу (тегу).</li> <li><b>Селектори за класом (Class Selector)</b> Вибирає всі елементи з певним класом. Клас визначається за допомогою крапки . перед назвою класу.</li> <li><b>Селектори за ідентифікатором (ID Selector)</b> Вибирає елемент з певним id. ID визначається за допомогою решітки # перед назвою ID. ID повинен бути унікальним на сторінці.</li> <li><b>Групові селектори (Group Selector)</b> Дозволяє застосувати одні й ті самі стилі до кількох типів елементів, розділяючи їх комами.</li> <li><b>Комбіновані селектори</b> вибирають всі елементи, що є нащадками іншого елемента.</li> <li><b>Селектори атрибутів (Attribute Selector)</b> Вибирає елементи на основі наявності атрибуту або його значення.</li> <li><b>Псевдокласові селектори (Pseudo-classes)</b> Використовуються для стилізації елементів у певному стані або при певній взаємодії (наприклад, наведення мишкою).</li> <li><b>Псевдоелементні селектори (Pseudo-elements)</b>Використовуються для стилізації певної частини елемента (наприклад, першої літери чи рядка).</li> </ul>`)"
+          >
+            СЕЛЕКТОРИ
+          </button>
+          <button
+            class="smaller-button"
+            id="button4"
+            onclick="updateInfo(`<img src=\'images/lab2/type_selector.png\' alt=\'type-selector\' width=\'800px\'>`)"
+          >
+            Селектори тегу
+          </button>
+          <button
+            class="smaller-button"
+            id="button5"
+            onclick="updateInfo(`<img src=\'images/lab2/class_selector.png\' alt=\'class-selector\' width=\'800px\'> <img src=\'images/lab2/search_bar.png\' alt=\'search-bar\' width=\'800px\'>`)"
+          >
+            Селектори класу
+          </button>
+          <button
+            class="smaller-button"
+            id="button6"
+            onclick="updateInfo(`<img src=\'images/lab2/id_selector.png\' alt=\'id-selector\' width=\'800px\'> <img src=\'images/lab2/search_bar.png\' alt=\'search-bar\' width=\'800px\'>`)"
+          >
+            Селектори ідентифікаторів
+          </button>
+          <button
+            class="smaller-button"
+            id="button7"
+            onclick="updateInfo(`<img src=\'images/lab2/other_selector.png\' alt=\'other-selector\' width=\'800px\'> <img src=\'images/lab2/other_selector2.png\' alt=\'other-selector2\' width=\'800px\'> <img src=\'images/lab2/other_selector3.png\' alt=\'other-selector3\' width=\'800px\'> <img src=\'images/lab2/other_selector4.png\' alt=\'other-selector4\' width=\'800px\'>`)"
+          >
+            Інші селектори
+          </button>
+          <button
+            class="bigger-button"
+            id="button8"
+            onclick="updateInfo(`<img src=\'images/lab2/higher1.png\' alt=\'higher1\' width=\'800px\'> <img src=\'images/lab2/higher2.png\' alt=\'higher2\' width=\'800px\'>`)"
+          >
+            CSS: шрифти, текст, таблиці, фон, контур, списки, CSS просунутий
+          </button>
+          <button
+            class="bigger-button"
+            id="button9"
+            onclick="updateInfo(`Під час виконання лабораторної роботи я ознайомилася з основними принципами роботи з CSS-селекторами та ідентифікаторами, навчилася застосовувати різноманітні властивості кольору і фону, а також використовувати внутрішні та зовнішні відступи для створення більш гнучких і зручних макетів веб-сторінок. Практичне застосування плаваючих елементів дозволило краще зрозуміти їх поведінку при верстці. Також я покращила свої навички в оформленні текстових елементів для створення чіткішого та естетичного дизайну. Отримані знання є корисними для створення адаптивних та інтерактивних інтерфейсів у веб-дизайні.`)"
+          >
+            Висновки
+          </button>
+        </div>
+        <section class="info">
+          <p id="info-box">Лабораторна робота №2</p>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

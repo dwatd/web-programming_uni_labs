@@ -1,0 +1,318 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-top: 17px;
+}
+
+.price-info {
+  max-width: 600px;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #3399ff;
+}
+
+.new-price {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.timer {
+  color: red;
+}
+
+.economy {
+  color: green;
+}
+
+.economy img {
+  margin-right: 10px;
+  height: 30px;
+  width: auto;
+}
+
+.timer img {
+  margin-right: 10px;
+  height: 30px;
+  width: auto;
+}
+
+.economy,
+.timer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  background-color: rgba(255, 0, 0, 0.861);
+  color: white;
+  padding: 15px 250px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.buy-button:hover {
+  background-color: darkred;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li img {
+  margin-right: 10px;
+  width: 24px;
+  height: auto;
+}
+
+.img2 {
+  height: 40px;
+  width: auto;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  color: #555;
+}
+
+/* Схожі товари */
+.similar-products {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.similar-products p {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.old-price2 {
+  color: grey;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.new-price2 {
+  color: #3399ff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buy {
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-container {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.help,
+.connect-us,
+.our-partners,
+.secure-payments {
+  flex-basis: 100%;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.connect-us img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.our-partners img {
+  margin-right: 10px;
+}
+
+#partner1 {
+  width: 80px;
+  height: auto;
+}
+
+#partner2 {
+  width: 40px;
+  height: auto;
+}
+
+#partner3 {
+  width: 110px;
+  height: auto;
+  margin: 8px;
+}
+
+h5 {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+#help-hr {
+  width: 90%;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+}
+
+.secure-payments p {
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.secure-payments img {
+  vertical-align: middle;
+  width: 70px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+  }
+
+  .buy-button {
+    padding: 10px 50px;
+    width: 100%;
+  }
+
+  .product-item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .similar-products p {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  #similar-p {
+    text-align: left;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help,
+  .connect-us,
+  .our-partners,
+  .secure-payments {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .buy-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .timer,
+  .economy {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

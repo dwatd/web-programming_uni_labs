@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+table {
+  width: 600px;
+  height: 695px;
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+td {
+  border: 2px solid black;
+}
+
+.cell-1 {
+  height: 100px;
+  color: white;
+  background-color: blue;
+}
+
+.cell-2 {
+  width: 100px;
+  background-color: rgb(255, 225, 20);
+}
+
+.cell-3 {
+  height: 100px;
+  color: white;
+  background-color: blue;
+}
+
+.cell-4 {
+  color: black;
+}
+
+.cell-white {
+  width: 50px;
+}

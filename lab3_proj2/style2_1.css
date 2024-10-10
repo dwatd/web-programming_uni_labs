@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+.main-container {
+  width: 850px;
+  position: relative;
+  display: table;
+  border: 2px solid black;
+}
+
+.container {
+  float: left;
+  height: 935px;
+}
+
+.element1 h2,
+.element3 h2 {
+  color: white;
+}
+
+.element2 {
+  width: 150px;
+  height: 935px;
+  background-color: rgb(255, 196, 0);
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid black;
+}
+
+.element1,
+.element3 {
+  width: 600px;
+  height: 116px;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  margin-left: 0;
+  border: 2px solid black;
+  border-left: 0px;
+}
+.element4 {
+  width: 600px;
+  height: 700px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  clear: both;
+  margin-left: 0;
+  border-right: 2px solid black;
+}

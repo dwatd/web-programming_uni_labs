@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Звіти лабораторних робіт</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h1>
+        <h2>
+          з дисципліни «Інтернет-технології та проєктування web-застосувань»
+        </h2>
+      </header>
+
+      <section class="student-info">
+        <div>
+          <h4>Студентки групи ІС-33 <br />Семенюк Катерини Василівни</h4>
+        </div>
+        <img src="images/student.jpg" alt="Student-photo" />
+      </section>
+
+      <div class="labs">
+        <button id="lab1"><a href="lab1.html">Лабораторна робота №1</a></button>
+        <button id="lab2"><a href="lab2.html">Лабораторна робота №2</a></button>
+        <button id="lab3"><a href="lab3.html">Лабораторна робота №3</a></button>
+        <button id="lab4"><a href="lab4.html">Лабораторна робота №4</a></button>
+        <button id="lab5">Лабораторна робота №5</button>
+        <button id="lab6">Лабораторна робота №6</button>
+        <button id="lab7">Лабораторна робота №7</button>
+        <button id="lab8">Лабораторна робота №8</button>
+        <button id="lab9">Лабораторна робота №9</button>
+      </div>
+
+      <main class="content">
+        <div class="menu">
+          <button
+            class="bigger-button"
+            id="button1"
+            onclick="updateInfo(`<h4>Тема:</h4> АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST. <br> <h4>Мета:</h4> Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. Інструменти розробника. Стратегія Mobile First. <h4>Місце розташування ЛР №4:</h4> <a href='https://github.com/dwatd/web-programming_uni_labs/blob/main/lab4.html'>https://github.com/dwatd/web-programming_uni_labs/blob/main/lab4.html</a> <h4>Жива сторінка ЛР №4:</h4> <a href='https://dwatd.github.io/web-programming_uni_labs/'>https://dwatd.github.io/web-programming_uni_labs/lab4.html</a> <h4>Місце розташування сайту:</h4> <a href='https://github.com/dwatd/uni_site_jap'>https://github.com/dwatd/uni_site_jap</a><h4>Жива сторінка сайту:</h4> <a href='https://dwatd.github.io/uni_site_jap/'>https://dwatd.github.io/uni_site_jap/</a>`)"
+          >
+            Тема, метa ЛР №4. Місце розташування сайту, звіту
+          </button>
+          <button
+            class="bigger-button"
+            id="button2"
+            onclick="updateInfo(`<h3>Адаптивна верстка сайту</h3> <br> <h4>Десктопна версія сайту</h4> <img src='images/lab4/desktop2.jpg' alt='desktop2' width='700px'> <img src='images/lab4/desktop1.jpg' alt='desktop1' width='700px'><br> <h4>Планшетна версія сайту</h4> <img src=\'images/lab3/anime_mp.jpg\' alt=\'main-page\' width=\'800px\'> <img src=\'images/lab4/anime_tablet1.png\' alt=\'anime_tablet1\' width=\'800px\'> <img src=\'images/lab4/anime_tablet2.png\' alt=\'anime_tablet2\' width=\'800px\'> <br> <h4>Мобільна версія сайту</h4> <img src=\'images/lab3/anime_mp_phone.jpg\' alt=\'main-page-phone\' width=\'300px\'> <br> <img src=\'images/lab3/anime_phone1.jpg\' alt=\'anime-phone1\' width='400px'> <img src=\'images/lab3/anime_phone2.jpg\' alt=\'anime-phone2\' width='400px'>`)"
+          >
+            Адаптивна верстка сайту
+          </button>
+          <button
+            class="bigger-button"
+            id="button3"
+            onclick="updateInfo(`<h2>Медіа-запити</h2> Для реалізації адаптивного дизайну сайту було використано медіа-запити, які дозволяють змінювати стилі в залежності від ширини екрану. Були визначені відповідні брейкпоінти, що забезпечують оптимальне розміщення елементів на сторінці для різних типів пристроїв. <br><br> <h4>Головна сторінка:</h4> <div style='display: flex; flex-direction: row; align-items: flex-start;'> <img src='images/lab4/mp_phone.png' alt='mp_phone' width='400px'> <img src='images/lab4/mp_tablet.png' alt='mp_tablet' width='400px'> </div> <br><h4>Аніме сторінка:</h4> <div style='display: flex; flex-direction: row; align-items: flex-start;'> <img src='images/lab4/anime1.png' alt='anime1' width='400px'> <img src='images/lab4/anime2.png' alt='anime2' width='400px'> </div>`)"
+          >
+            Медіа-запити(з використанням логічних операторів)
+          </button>
+          <button
+            class="bigger-button"
+            id="button4"
+            onclick="updateInfo(`<h4>Висновки</h4> Під час виконання лабораторної роботи мною було розглянуто основні концепції адаптивної верстки, які дозволяють створювати вебсайти, що коректно відображаються на різних пристроях. Важливу роль у цьому відіграють медіа-запити та медіа-функції, які дозволяють змінювати стиль сторінки в залежності від ширини екрана, орієнтації та інших характеристик пристрою. Медіа-типи визначають категорії пристроїв, до яких застосовуються ці стилі. <br> Метатег viewport забезпечує коректне масштабування сторінки на мобільних пристроях, що особливо важливо при застосуванні стратегії Mobile First, де дизайн спочатку розробляється для мобільних екранів, а потім адаптується для більших пристроїв. <br> Інструменти розробника допомогли перевірити роботу медіа-запитів і візуалізувати зміни в макеті в реальному часі, що значно полегшило налагодження та тестування адаптивності вебсайту.`)"
+          >
+            ВИСНОВКИ
+          </button>
+        </div>
+        <section class="info">
+          <p id="info-box">Лабораторна робота №4</p>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

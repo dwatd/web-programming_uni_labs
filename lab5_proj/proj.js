@@ -47,6 +47,7 @@ function filterArray(numbers, value) {
       result.push(numbers[i]);
     }
   }
+  console.log(`Input array: ${numbers}, value: ${value}`);
   console.log(result);
 }
 
